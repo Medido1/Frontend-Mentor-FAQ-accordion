@@ -47,7 +47,7 @@ body {
   border-radius: .5rem;
   padding: 1.25rem;
   font-family: var(--main_font);
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .header,
@@ -92,7 +92,7 @@ body {
 
 .answer {
   color: var(--Grayish_purple);
-  max-width: 40ch;
+  max-width: 50ch;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
