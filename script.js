@@ -12,16 +12,12 @@ function toggleAnswer(index){
   }
 }
 
-questions.forEach((question, index) => {
-  question.addEventListener("click", () => {
-    toggleAnswer(index);
-  })
-})
 
 function focusAndToggleAnswer(index) {
   if (index >= 0 && index < questions.length) {
     if (selectedIndex !== -1) {
       toggleAnswer(selectedIndex); // Hide the previously selected answer
+
     }
     selectedIndex = index;
     questions[selectedIndex].focus(); // Focus on the selected question
